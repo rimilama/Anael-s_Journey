@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Langue_signe.unity
+  isLoaded: 1
+  isActive: 1
