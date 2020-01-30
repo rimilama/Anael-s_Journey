@@ -30,3 +30,7 @@ MonoBehaviour:
     m_IsFlagOn: 1
   - m_FlagName: A_Conversation/START/1_Dialog/ID_6
     m_IsFlagOn: 1
+  - m_FlagName: A_Conversation/START/1_Dialog/ID_7
+    m_IsFlagOn: 1
+  - m_FlagName: A_Conversation/START/1_Dialog/ID_8
+    m_IsFlagOn: 1

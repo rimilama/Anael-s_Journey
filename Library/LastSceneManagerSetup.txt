@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Introduction_Scene.unity
+- path: Assets/VisualNovelToolkit/Examples/QuickStart Demo/QuickStart Demo.unity
   isLoaded: 1
   isActive: 1
