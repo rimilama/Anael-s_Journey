@@ -2243,7 +2243,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 257535473}
-  m_Text: "<material=0><color=#000000>Je devrais me pr\xE9parer pour le lyc\xE9e !</color></material><material=1></material>"
+  m_Text: <material=0><color=#000000></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 5.5
   m_LineSpacing: 1
@@ -2455,7 +2455,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1872040196}
   m_Father: {fileID: 1141241870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4144,7 +4145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &616150790
 Transform:
   m_ObjectHideFlags: 0
@@ -5025,7 +5026,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735996304}
-  m_Text: "<material=0><color=#ffffff>Je devrais me pr\xE9parer pour le lyc\xE9e !</color></material><material=1></material>"
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 5.5
   m_LineSpacing: 1
@@ -5103,6 +5104,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 256, y: 44, z: 1}
   m_Center: {x: 0, y: 0, z: -6}
+--- !u!21 &749468620
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Unlit/UnlitAlphaWithFade
+  m_Shader: {fileID: 4800000, guid: abaec5d09b9604320b8dd88620ca0919, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 39e829baad5639243a7c983399d55c46, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &771461375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5963,7 +5990,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 882157118}
-  m_Text: "<material=0><color=#000000>Je devrais me pr\xE9parer pour le lyc\xE9e !</color></material><material=1></material>"
+  m_Text: <material=0><color=#000000></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 5.5
   m_LineSpacing: 1
@@ -6522,7 +6549,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 952221864}
-  m_Text: <material=0><color=#ffffff>Anael</color></material><material=1></material>
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 12
   m_LineSpacing: 1
@@ -8737,7 +8764,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1437876675}
-  m_Text: "<material=0><color=#000000>Je devrais me pr\xE9parer pour le lyc\xE9e !</color></material><material=1></material>"
+  m_Text: <material=0><color=#000000></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 5.5
   m_LineSpacing: 1
@@ -8833,6 +8860,21 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!115 &1447873348
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 4
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: PanelBase
+  m_Namespace: ViNoToolkit
+  m_AssemblyName: MakeDLLforFree
+  m_IsEditorScript: 0
 --- !u!1 &1452499064
 GameObject:
   m_ObjectHideFlags: 0
@@ -9205,6 +9247,21 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!115 &1517953565
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 4
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: ViNoSceneNode
+  m_Namespace: 
+  m_AssemblyName: MakeDLLforFree
+  m_IsEditorScript: 0
 --- !u!1 &1524823136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9277,7 +9334,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524823136}
-  m_Text: <material=0><color=#ffffff>Anael</color></material><material=1></material>
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 6
   m_LineSpacing: 1
@@ -9865,7 +9922,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1553174936}
-  m_Text: "<material=0><color=#000000>Je devrais me pr\xE9parer pour le lyc\xE9e !</color></material><material=1></material>"
+  m_Text: <material=0><color=#000000></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 5.5
   m_LineSpacing: 1
@@ -10149,6 +10206,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578582007}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!115 &1605629786
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  serializedVersion: 4
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: ThisObjectIsCached
+  m_Namespace: 
+  m_AssemblyName: MakeDLLforFree
+  m_IsEditorScript: 0
 --- !u!1 &1619633592
 GameObject:
   m_ObjectHideFlags: 0
@@ -10302,7 +10374,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1619766473}
-  m_Text: <material=0><color=#ffffff>Anael</color></material><material=1></material>
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 12
   m_LineSpacing: 1
@@ -11228,6 +11300,145 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1722069545}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &1734103562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1734103563}
+  - component: {fileID: 1734103568}
+  - component: {fileID: 1734103567}
+  - component: {fileID: 1734103566}
+  - component: {fileID: 1734103565}
+  - component: {fileID: 1734103564}
+  m_Layer: 0
+  m_Name: layer1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1734103563
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 512, y: 512, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1872040196}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1734103564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1447873348}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActiveColor: {r: 1, g: 1, b: 1, a: 1}
+  m_DeactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  alpha: 1
+  m_SetActiveRGB: 0
+  m_SetDeactiveRGB: 0
+  meshRendererCollection:
+  - {fileID: 1734103565}
+  duration: 1
+  m_ChangeColOnTextSet: 0
+  fadeTo: 1
+  fadeFrom: 0
+  fadeDir: 1
+--- !u!23 &1734103565
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 749468620}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1734103566
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!114 &1734103567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1517953565}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeAtStart: 1
+  currentLoadedTexturePath: BG/chambre
+  singleNodeData:
+    name: 
+    parentname: 
+    nodeType: 3
+    posX: 0
+    posY: 0
+    posZ: 0
+    rotX: 0
+    rotY: 0
+    rotZ: 0
+    sclX: 1
+    sclY: 1
+    sclZ: 1
+    uiAtlasName: 
+    texturePath: 
+    alpha: 0.1
+    show: 1
+    makePixelPerfect: 1
+  isCacheObject: 0
+--- !u!114 &1734103568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734103562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1605629786}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useKey: 0
+  key: 
 --- !u!1 &1739132468
 GameObject:
   m_ObjectHideFlags: 0
@@ -11275,7 +11486,7 @@ MonoBehaviour:
   startAndActive: 1
   useAlreadyCompiledCode: 0
   m_CompiledInternalCodeAsset: {fileID: 0}
-  m_NextLevelName: DialogScene2
+  m_NextLevelName: AnaelChambre
 --- !u!114 &1739132471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11288,7 +11499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e172ba17dfc2d4a4c85bea53dc7b9a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anyResourcePath: DialogScene2
+  anyResourcePath: AnaelChambre
   parent: {fileID: 0}
   m_ParentName: 
 --- !u!114 &1739132472
@@ -11613,7 +11824,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1764392767}
-  m_Text: <material=0><color=#ffffff>Anael</color></material><material=1></material>
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 12
   m_LineSpacing: 1
@@ -12359,6 +12570,82 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1870610944}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &1872040195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1872040196}
+  - component: {fileID: 1872040198}
+  - component: {fileID: 1872040197}
+  m_Layer: 0
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1872040196
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1872040195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1734103563}
+  m_Father: {fileID: 293373635}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1872040197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1872040195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1517953565}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeAtStart: 1
+  currentLoadedTexturePath: 
+  singleNodeData:
+    name: 
+    parentname: 
+    nodeType: 3
+    posX: 0
+    posY: 0
+    posZ: 0
+    rotX: 0
+    rotY: 0
+    rotZ: 0
+    sclX: 1
+    sclY: 1
+    sclZ: 1
+    uiAtlasName: 
+    texturePath: 
+    alpha: 0.1
+    show: 1
+    makePixelPerfect: 1
+  isCacheObject: 0
+--- !u!114 &1872040198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1872040195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1605629786}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useKey: 0
+  key: 
 --- !u!1 &1887091149
 GameObject:
   m_ObjectHideFlags: 0
@@ -13691,7 +13978,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023657842}
-  m_Text: <material=0><color=#ffffff>Anael</color></material><material=1></material>
+  m_Text: <material=0><color=#ffffff></color></material><material=1></material>
   m_OffsetZ: 0
   m_CharacterSize: 12
   m_LineSpacing: 1

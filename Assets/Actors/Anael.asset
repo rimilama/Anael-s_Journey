@@ -30,7 +30,7 @@ MonoBehaviour:
       sclY: 1
       sclZ: 1
       uiAtlasName: 
-      texturePath: FS1-default
+      texturePath: Characters/anael/FS1-default
       alpha: 1
       show: 1
       makePixelPerfect: 1
@@ -47,126 +47,7 @@ MonoBehaviour:
       sclY: 1
       sclZ: 1
       uiAtlasName: 
-      texturePath: FS1-embarrassed1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_2
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -2
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-guilty1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_3
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -3
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-pissed
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_4
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -4
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-angry1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_5
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -5
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-sad1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_6
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -6
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-shock1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_7
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -7
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-smile1
-      alpha: 1
-      show: 1
-      makePixelPerfect: 1
-    - name: Anael_8
-      parentname: Anael
-      nodeType: 3
-      posX: 0
-      posY: 0
-      posZ: -8
-      rotX: 0
-      rotY: 0
-      rotZ: 0
-      sclX: 1
-      sclY: 1
-      sclZ: 1
-      uiAtlasName: 
-      texturePath: FS1-worried1
+      texturePath: FS1-default2
       alpha: 1
       show: 1
       makePixelPerfect: 1

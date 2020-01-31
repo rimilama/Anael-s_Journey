@@ -17,7 +17,7 @@ MonoBehaviour:
     nodeType: 3
     posX: 0
     posY: 0
-    posZ: 0
+    posZ: 2
     rotX: 0
     rotY: 0
     rotZ: 0
@@ -42,7 +42,7 @@ MonoBehaviour:
     sclY: 1
     sclZ: 1
     uiAtlasName: 
-    texturePath: BG/a07d4e863d9df949a799d16e34bb9009
+    texturePath: BG/chambre
     alpha: 1
     show: 1
     makePixelPerfect: 1
